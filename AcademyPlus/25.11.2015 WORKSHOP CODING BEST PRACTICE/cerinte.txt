@@ -1,0 +1,25 @@
+cerinte
+
+
+heder
+10 functii
+VALIDARE SINTACTICA
+VALIDARE SEMANTICA:
+validare: caractère alfabetice, doar 4 campuri pe linie
+validate long, int.
+validare judder: to lower pentru fiecare linie.
+
+
+validarea structurii fisierului, instiintare lipsa drepturi, eroare conexiune server
+
+MAKEFILE sa ruleze testele si un raport
+daca nu trece testele compilareea sa se opreasca
+
+
+cand se intalneste o eroare, procesul se opreste, cu afisarea erorii…
+
+
+am putea descrca lista tuturor judetelor valide
+
+mailul: @ sa fi urmat todeauna si de un .
+

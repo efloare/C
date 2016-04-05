@@ -1,0 +1,62 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r1p4.42.fr
+Darwin 14.5.0 x86_64
+$> date
+Thu Jan 14 19:10:10 CET 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.0 (clang-700.1.76)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+$> clang --version
+Apple LLVM version 7.0.0 (clang-700.1.76)
+Target: x86_64-apple-darwin14.5.0
+Thread model: posix
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/c-exam-beginner/exam_20160114/efloare
+
+= Git history ==================================================================
+$> git -C /var/folders/dg/k2041jnn73l8n297xb9z0np80000gp/T/tmpQUGuuM/user log --pretty='%H - %an, %ad : %s'
+0782d9a32775eb1b0f246bb58e39b66fcc375e55 - Exam 42, Thu Jan 14 19:09:35 2016 +0100 : aaa
+6062ada61cc033bdb5f7d8e9b40a00ec93ddec12 - Exam 42, Thu Jan 14 18:26:39 2016 +0100 : paramasda
+4f79ac15b6eeeb507afb1cc4e5ad7f319bce630c - Exam 42, Thu Jan 14 18:25:57 2016 +0100 : param
+58e1e89ebee6de1f5751d5b33e903025912248e4 - Exam 42, Thu Jan 14 17:27:01 2016 +0100 : malloc
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/dg/k2041jnn73l8n297xb9z0np80000gp/T/tmpQUGuuM/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  998 Jan 14 19:10 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought  136 Jan 14 19:10 ft_list_foreach
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 14 19:10 ft_range.c
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 14 19:10 paramsum
+
+/var/folders/dg/k2041jnn73l8n297xb9z0np80000gp/T/tmpQUGuuM/user/ft_list_foreach:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1120 Jan 14 19:10 ft_list.h
+-rw-r--r--  1 deepthought  deepthought  1039 Jan 14 19:10 ft_list_foreach.c
+
+/var/folders/dg/k2041jnn73l8n297xb9z0np80000gp/T/tmpQUGuuM/user/ft_range.c:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1108 Jan 14 19:10 ft_range.c
+
+/var/folders/dg/k2041jnn73l8n297xb9z0np80000gp/T/tmpQUGuuM/user/paramsum:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1455 Jan 14 19:10 paramsum.c
+ 
+= ft_list_foreach ==============================================================
+$> clang -Wextra -Wall -Werror main.c ft_list_foreach.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./mlkh73vtepw7uy58ficrjr2b 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./9qdbs6ktn6voye9cc6t9ntlu "SoGpzrvEmP"
+Command './9qdbs6ktn6voye9cc6t9ntlu "SoGpzrvEmP"' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= Final grade: 0 ===============================================================
